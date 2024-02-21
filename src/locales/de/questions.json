@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "type": "single-select",
+    "title": "What is your preferred language?",
+    "sub-title": "Choose language",
+    "options": [
+      { "value": "English" },
+      { "value": "French" },
+      { "value": "German" },
+      { "value": "Spanish" },
+      { "value": "Ukrainian" }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "single-select-image",
+    "title": "Mit welchem Geschlecht identifizieren Sie sich?",
+    "sub-title": "Bitte teilen Sie mit, wie Sie sich identifizieren",
+    "options": [
+      { "icon": "../../assets/gender-icons/female.png", "value": "Weiblich" },
+      { "icon": "../../assets/gender-icons/male.png", "value": "Männlich" },
+      { "icon": "../../assets/gender-icons/other.png", "value": "Andere" }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single-select",
+    "title": "Wie alt sind Sie?",
+    "sub-title": null,
+    "options": [
+      { "value": "18-29 Jahre" },
+      { "value": "30-39 Jahre" },
+      { "value": "40-49 Jahre" },
+      { "value": "59+ Jahre" }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple-select",
+    "title": "Was mögen Sie am wenigsten an einem Buch?",
+    "sub-title": null,
+    "options": [
+      { "value": "Mangelnde Logik" },
+      { "value": "Langsame Handlung" },
+      { "value": "Mangel an Humor" },
+      { "value": "Allzu generisches Ende" },
+      { "value": "Schwache Charakterentwicklung" },
+      { "value": "Vorhersehbare Handlungswendungen" },
+      { "value": "Übermäßige Verwendung von Klischees" },
+      { "value": "Uninteressantes Setting" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "bubble",
+    "title": "Was sind Ihre Lieblingsthemen?",
+    "sub-title": "Wählen Sie bis zu 3 Themen, die Ihnen gefallen",
+    "options": [
+      { "icon": "../../assets/topic-icons/werewolf.png", "value": "Werwolf" },
+      { "icon": "../../assets/topic-icons/action.png", "value": "Action" },
+      {
+        "icon": "../../assets/topic-icons/royal-obsession.png",
+        "value": "Königliche Obsession"
+      },
+      { "icon": "../../assets/topic-icons/romance.png", "value": "Romantik" },
+      {
+        "icon": "../../assets/topic-icons/young-adult.png",
+        "value": "Jugendliche Erwachsene"
+      },
+      {
+        "icon": "../../assets/topic-icons/bad-boy.png",
+        "value": "Schlimmer Junge"
+      },
+      {
+        "icon": "../../assets/topic-icons/billionaire.png",
+        "value": "Milliardär"
+      },
+      {
+        "icon": "../../assets/topic-icons/mystery.png",
+        "value": "Mysterium"
+      },
+      {
+        "icon": "../../assets/topic-icons/fantasy.png",
+        "value": "Fantasie"
+      },
+      {
+        "icon": "../../assets/topic-icons/science-fiction.png",
+        "value": "Science Fiction"
+      },
+      {
+        "icon": "../../assets/topic-icons/historical-fiction.png",
+        "value": "Historische Fiktion"
+      },
+      {
+        "icon": "../../assets/topic-icons/comedy.png",
+        "value": "Komödie"
+      },
+      {
+        "icon": "../../assets/topic-icons/non-fiction.png",
+        "value": "Non-Fiction"
+      },
+      {
+        "icon": "../../assets/topic-icons/adventure.png",
+        "value": "Abenteuer"
+      },
+      {
+        "icon": "../../assets/topic-icons/cyberpunk.png",
+        "value": "Cyberpunk"
+      },
+      {
+        "icon": "../../assets/topic-icons/virtual-reality-adventure.png",
+        "value": "Virtual Reality Abenteuer"
+      },
+      {
+        "icon": "../../assets/topic-icons/online-gaming-culture.png",
+        "value": "Online-Gaming-Kultur"
+      },
+      {
+        "icon": "../../assets/topic-icons/workplace-drama.png",
+        "value": "Arbeitsplatzdrama"
+      },
+      {
+        "icon": "../../assets/topic-icons/self-discovery-journeys.png",
+        "value": "Selbsterkundungsreisen"
+      },
+      {
+        "icon": "../../assets/topic-icons/family-dynamics.png",
+        "value": "Familiendynamik"
+      },
+      {
+        "icon": "../../assets/topic-icons/second-chances.png",
+        "value": "Zweite Chancen"
+      },
+      {
+        "icon": "../../assets/topic-icons/rediscovering-passions.png",
+        "value": "Wiederentdeckung von Leidenschaften"
+      },
+      {
+        "icon": "../../assets/topic-icons/reflection-on-life-choices.png",
+        "value": "Reflexion über Lebensentscheidungen"
+      },
+      {
+        "icon": "../../assets/topic-icons/historical-biographies.png",
+        "value": "Historische Biografien"
+      },
+      {
+        "icon": "../../assets/topic-icons/wisdom-tales.png",
+        "value": "Weisheitsgeschichten"
+      },
+      {
+        "icon": "../../assets/topic-icons/nostalgic-reads.png",
+        "value": "Nostalgische Lektüre"
+      }
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "type": "single-select",
+    "title": "What is your preferred language?",
+    "sub-title": "Choose language",
+    "options": [
+      { "value": "English" },
+      { "value": "French" },
+      { "value": "German" },
+      { "value": "Spanish" },
+      { "value": "Ukrainian" }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "single-select-image",
+    "title": "What gender do you identify with?",
+    "sub-title": "Please share how do you identify yourself",
+    "options": [
+      { "icon": "../../assets/gender-icons/female.png", "value": "Female" },
+      { "icon": "../../assets/gender-icons/male.png", "value": "Male" },
+      { "icon": "../../assets/gender-icons/other.png", "value": "Other" }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single-select",
+    "title": "What is your age?",
+    "sub-title": null,
+    "options": [
+      { "value": "18-29 years" },
+      { "value": "30-39 years" },
+      { "value": "40-49 years" },
+      { "value": "59+ years" }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple-select",
+    "title": "What do you hate the most in a book?",
+    "sub-title": null,
+    "options": [
+      { "value": "Lack of logic" },
+      { "value": "A slow speed" },
+      { "value": "Lack of humor" },
+      { "value": "Way too generic ending" },
+      { "value": "Poor character development" },
+      { "value": "Predictable plot twists" },
+      { "value": "Excessive use of clichés" },
+      { "value": "Uninteresting setting" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "bubble",
+    "title": "What are your favorite topics?",
+    "sub-title": "Choose up to 3 topics you like",
+    "options": [
+      { "icon": "../../assets/topic-icons/werewolf.png", "value": "Werewolf" },
+      { "icon": "../../assets/topic-icons/action.png", "value": "Action" },
+      {
+        "icon": "../../assets/topic-icons/royal-obsession.png",
+        "value": "Royal Obsession"
+      },
+      { "icon": "../../assets/topic-icons/romance.png", "value": "Romance" },
+      {
+        "icon": "../../assets/topic-icons/young-adult.png",
+        "value": "Young Adult"
+      },
+      { "icon": "../../assets/topic-icons/bad-boy.png", "value": "Bad Boy" },
+      {
+        "icon": "../../assets/topic-icons/billionaire.png",
+        "value": "Billionaire"
+      },
+      {
+        "icon": "../../assets/topic-icons/mystery.png",
+        "value": "Mystery"
+      },
+      {
+        "icon": "../../assets/topic-icons/fantasy.png",
+        "value": "Fantasy"
+      },
+      {
+        "icon": "../../assets/topic-icons/science-fiction.png",
+        "value": "Science Fiction"
+      },
+      {
+        "icon": "../../assets/topic-icons/historical-fiction.png",
+        "value": "Historical Fiction"
+      },
+      {
+        "icon": "../../assets/topic-icons/comedy.png",
+        "value": "Comedy"
+      },
+      {
+        "icon": "../../assets/topic-icons/non-fiction.png",
+        "value": "Non-fiction"
+      },
+      {
+        "icon": "../../assets/topic-icons/adventure.png",
+        "value": "Adventure"
+      },
+      {
+        "icon": "../../assets/topic-icons/cyberpunk.png",
+        "value": "Cyberpunk"
+      },
+      {
+        "icon": "../../assets/topic-icons/virtual-reality-adventure.png",
+        "value": "Virtual Reality Adventure"
+      },
+      {
+        "icon": "../../assets/topic-icons/online-gaming-culture.png",
+        "value": "Online Gaming Culture"
+      },
+      {
+        "icon": "../../assets/topic-icons/workplace-drama.png",
+        "value": "Workplace Drama"
+      },
+      {
+        "icon": "../../assets/topic-icons/self-discovery-journeys.png",
+        "value": "Self Discovery Journeys"
+      },
+      {
+        "icon": "../../assets/topic-icons/family-dynamics.png",
+        "value": "Family Dynamics"
+      },
+      {
+        "icon": "../../assets/topic-icons/second-chances.png",
+        "value": "Second Chances"
+      },
+      {
+        "icon": "../../assets/topic-icons/rediscovering-passions.png",
+        "value": "Rediscovering Passions"
+      },
+      {
+        "icon": "../../assets/topic-icons/reflection-on-life-choices.png",
+        "value": "Reflection on Life Choices"
+      },
+      {
+        "icon": "../../assets/topic-icons/historical-biographies.png",
+        "value": "Historical Biographies"
+      },
+      {
+        "icon": "../../assets/topic-icons/wisdom-tales.png",
+        "value": "Wisdom Tales"
+      },
+      {
+        "icon": "../../assets/topic-icons/nostalgic-reads.png",
+        "value": "Nostalgic Reads"
+      }
+    ]
+  }
+]

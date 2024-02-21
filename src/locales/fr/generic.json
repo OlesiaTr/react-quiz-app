@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "sub-title": "Recherche de collections pour vous..."
+  },
+  "email": {
+    "title": "Page Email",
+    "sub-title": "Entrez votre adresse e-mail pour obtenir un accès complet",
+    "placeholder": "Votre adresse e-mail",
+    "empty-error": "L'adresse e-mail ne peut pas être vide",
+    "incorrect-error": "Adresse e-mail incorrecte",
+    "agreement": "En continuant, j'accepte la politique de confidentialité et les conditions d'utilisation."
+  },
+  "success": {
+    "title": "Merci",
+    "sub-title": "de nous soutenir et de passer le quiz",
+    "download": "Télécharger mes réponses"
+  },
+  "button": {
+    "next": "Suivant",
+    "retake": "Repasser le quiz"
+  }
+}

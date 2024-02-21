@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "type": "single-select",
+    "title": "What is your preferred language?",
+    "sub-title": "Choose language",
+    "options": [
+      { "value": "English" },
+      { "value": "French" },
+      { "value": "German" },
+      { "value": "Spanish" },
+      { "value": "Ukrainian" }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "single-select-image",
+    "title": "З яким статусом ви ідентифікуєтеся?",
+    "sub-title": "Будь ласка, поділіться, як ви ідентифікуєте себе",
+    "options": [
+      { "icon": "../../assets/gender-icons/female.png", "value": "Жіночий" },
+      { "icon": "../../assets/gender-icons/male.png", "value": "Чоловічий" },
+      { "icon": "../../assets/gender-icons/other.png", "value": "Інше" }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single-select",
+    "title": "Скільки вам років?",
+    "sub-title": null,
+    "options": [
+      { "value": "18-29 років" },
+      { "value": "30-39 років" },
+      { "value": "40-49 років" },
+      { "value": "59+ років" }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple-select",
+    "title": "Що ви найбільше не любите в книзі?",
+    "sub-title": null,
+    "options": [
+      { "value": "Відсутність логіки" },
+      { "value": "Повільний хід подій" },
+      { "value": "Відсутність гумору" },
+      { "value": "Надто загальний кінець" },
+      { "value": "Недостатній розвиток персонажів" },
+      { "value": "Передбачувані повороти сюжету" },
+      { "value": "Чрезмерне використання штампів" },
+      { "value": "Нецікаве оточення" }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "bubble",
+    "title": "Які ваші улюблені теми?",
+    "sub-title": "Виберіть до 3 тем, які вам подобаються",
+    "options": [
+      { "icon": "../../assets/topic-icons/werewolf.png", "value": "Оборотень" },
+      { "icon": "../../assets/topic-icons/action.png", "value": "Екшн" },
+      {
+        "icon": "../../assets/topic-icons/royal-obsession.png",
+        "value": "Королівське Захоплення"
+      },
+      { "icon": "../../assets/topic-icons/romance.png", "value": "Романтика" },
+      {
+        "icon": "../../assets/topic-icons/young-adult.png",
+        "value": "Молодь"
+      },
+      {
+        "icon": "../../assets/topic-icons/bad-boy.png",
+        "value": "Поганий Хлопець"
+      },
+      {
+        "icon": "../../assets/topic-icons/billionaire.png",
+        "value": "Мільярдер"
+      },
+      {
+        "icon": "../../assets/topic-icons/mystery.png",
+        "value": "Містика"
+      },
+      {
+        "icon": "../../assets/topic-icons/fantasy.png",
+        "value": "Фентезі"
+      },
+      {
+        "icon": "../../assets/topic-icons/science-fiction.png",
+        "value": "Наукова Фантастика"
+      },
+      {
+        "icon": "../../assets/topic-icons/historical-fiction.png",
+        "value": "Історична Фантастика"
+      },
+      {
+        "icon": "../../assets/topic-icons/comedy.png",
+        "value": "Комедія"
+      },
+      {
+        "icon": "../../assets/topic-icons/non-fiction.png",
+        "value": "Нехудожня Література"
+      },
+      {
+        "icon": "../../assets/topic-icons/adventure.png",
+        "value": "Пригоди"
+      },
+      {
+        "icon": "../../assets/topic-icons/cyberpunk.png",
+        "value": "Кіберпанк"
+      },
+      {
+        "icon": "../../assets/topic-icons/virtual-reality-adventure.png",
+        "value": "Пригоди у Віртуальній Реальності"
+      },
+      {
+        "icon": "../../assets/topic-icons/online-gaming-culture.png",
+        "value": "Культура Онлайн-Геймінгу"
+      },
+      {
+        "icon": "../../assets/topic-icons/workplace-drama.png",
+        "value": "Драма на Робочому Місці"
+      },
+      {
+        "icon": "../../assets/topic-icons/self-discovery-journeys.png",
+        "value": "Подорожі в Пошуках Себе"
+      },
+      {
+        "icon": "../../assets/topic-icons/family-dynamics.png",
+        "value": "Сімейна Динаміка"
+      },
+      {
+        "icon": "../../assets/topic-icons/second-chances.png",
+        "value": "Другий Шанс"
+      },
+      {
+        "icon": "../../assets/topic-icons/rediscovering-passions.png",
+        "value": "Відкриття Страстей"
+      },
+      {
+        "icon": "../../assets/topic-icons/reflection-on-life-choices.png",
+        "value": "Рефлексія над Виборами у Житті"
+      },
+      {
+        "icon": "../../assets/topic-icons/historical-biographies.png",
+        "value": "Історичні Біографії"
+      },
+      {
+        "icon": "../../assets/topic-icons/wisdom-tales.png",
+        "value": "Повчальні Казки"
+      },
+      {
+        "icon": "../../assets/topic-icons/nostalgic-reads.png",
+        "value": "Ностальгічні Читання"
+      }
+    ]
+  }
+]

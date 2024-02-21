@@ -1,0 +1,22 @@
+{
+  "loader": {
+    "sub-title": "Buscando colecciones para ti..."
+  },
+  "email": {
+    "title": "Página de Correo Electrónico",
+    "sub-title": "Ingresa tu correo electrónico para obtener acceso completo",
+    "placeholder": "Tu correo electrónico",
+    "empty-error": "El correo electrónico no puede estar vacío",
+    "incorrect-error": "Correo electrónico incorrecto",
+    "agreement": "Al continuar, acepto la política de privacidad y los términos de uso."
+  },
+  "success": {
+    "title": "Gracias",
+    "sub-title": "por apoyarnos y aprobar el cuestionario",
+    "download": "Descargar mis respuestas"
+  },
+  "button": {
+    "next": "Siguiente",
+    "retake": "Repetir cuestionario"
+  }
+}
