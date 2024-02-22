@@ -3,6 +3,7 @@ const colors = {
   titleGray: '#F2F3F5',
   subtitleGray: '#C4C8CC',
   mainPink: '#E4229B',
+  mainPinkWithOpacity: 'rgba(228,34,155,0.2)',
   secondaryPink: '#E4229C',
   mainBg: '#1f002b',
   secondaryBg: '#36173d',
@@ -42,6 +43,18 @@ const transition = {
   main: 'all 250ms cubic-bezier(0.4, 0, 0.2, 1)',
 };
 
+const media = {
+  medium: '(min-width: 768px)',
+  large: '(min-width: 1440px)',
+};
+/* usage
+   @media screen and (${(p) => p.theme.media.large}) {
+    height: ;
+    color: ;
+    ...
+  }
+  */
+
 export const theme = {
   colors,
   fonts,
@@ -49,4 +62,5 @@ export const theme = {
   fontSizes,
   borders,
   transition,
+  media,
 };

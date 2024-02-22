@@ -22,10 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-
-  color: #2b3a55
-}
+  margin: 0;}
 ul,
 ol {
   margin: 0;
