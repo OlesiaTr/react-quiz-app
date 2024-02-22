@@ -33,7 +33,9 @@ const ProgressBar: FC<Props> = ({
     setProgressPercent(newProgressPercent);
   }, [question, totalQuestions]);
 
-  const handleBtnClick = () => navigate(`/quiz/${Number(page) - 1}`);
+  const handleBtnClick = () => {
+    navigate(`/quiz/${Number(page) - 1}`);
+  };
 
   return (
     <Section>
