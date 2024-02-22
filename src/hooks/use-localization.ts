@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { QuestionData } from '../types';
+import { GenericData, QuestionData } from '../types';
 import { useEffect, useState } from 'react';
 import { LanguageLocales } from '../enums';
 import { useNavigate } from 'react-router-dom';
@@ -15,13 +15,18 @@ export const useLocalization = () => {
   const [selectedTranslation, setSelectedTranslation] = useState<
     QuestionData[] | null
   >(null);
+  const [genericTranslation, setGenericTranslation] =
+    useState<GenericData | null>(null);
 
   const getTranslatedData = async (language: string) => {
     try {
       const translatedData = await import(
         `../locales/${language}/questions.json`
       );
+      const genericData = await import(`../locales/${language}/generic.json`);
+
       setSelectedTranslation(translatedData.default);
+      setGenericTranslation(genericData.default);
     } catch (error) {
       console.error('Error loading translation data:', error);
     }
@@ -48,6 +53,7 @@ export const useLocalization = () => {
   }, [selectedLanguage]);
 
   return {
+    genericTranslation,
     selectedLanguage,
     selectedTranslation,
     changeLanguageAndNavigate,
