@@ -18,9 +18,9 @@
     "title": "Avec quel genre vous identifiez-vous ?",
     "sub-title": "Veuillez indiquer comment vous vous identifiez",
     "options": [
-      { "icon": "../../assets/gender-icons/female.png", "value": "Femme" },
-      { "icon": "../../assets/gender-icons/male.png", "value": "Homme" },
-      { "icon": "../../assets/gender-icons/other.png", "value": "Autre" }
+      { "icon": "/src/assets/gender-icons/female.png", "value": "Femme" },
+      { "icon": "/src/assets/gender-icons/male.png", "value": "Homme" },
+      { "icon": "/src/assets/gender-icons/other.png", "value": "Autre" }
     ]
   },
   {
@@ -58,101 +58,101 @@
     "sub-title": "Choisissez jusqu'à 3 sujets que vous aimez",
     "options": [
       {
-        "icon": "../../assets/topic-icons/werewolf.png",
+        "icon": "/src/assets/topic-icons/werewolf.png",
         "value": "Loup-garou"
       },
-      { "icon": "../../assets/topic-icons/action.png", "value": "Action" },
+      { "icon": "/src/assets/topic-icons/action.png", "value": "Action" },
       {
-        "icon": "../../assets/topic-icons/royal-obsession.png",
+        "icon": "/src/assets/topic-icons/royal-obsession.png",
         "value": "Obsession Royale"
       },
-      { "icon": "../../assets/topic-icons/romance.png", "value": "Romance" },
+      { "icon": "/src/assets/topic-icons/romance.png", "value": "Romance" },
       {
-        "icon": "../../assets/topic-icons/young-adult.png",
+        "icon": "/src/assets/topic-icons/young-adult.png",
         "value": "Jeune Adulte"
       },
       {
-        "icon": "../../assets/topic-icons/bad-boy.png",
+        "icon": "/src/assets/topic-icons/bad-boy.png",
         "value": "Mauvais Garçon"
       },
       {
-        "icon": "../../assets/topic-icons/billionaire.png",
+        "icon": "/src/assets/topic-icons/billionaire.png",
         "value": "Milliardaire"
       },
       {
-        "icon": "../../assets/topic-icons/mystery.png",
+        "icon": "/src/assets/topic-icons/mystery.png",
         "value": "Mystère"
       },
       {
-        "icon": "../../assets/topic-icons/fantasy.png",
+        "icon": "/src/assets/topic-icons/fantasy.png",
         "value": "Fantaisie"
       },
       {
-        "icon": "../../assets/topic-icons/science-fiction.png",
+        "icon": "/src/assets/topic-icons/science-fiction.png",
         "value": "Science Fiction"
       },
       {
-        "icon": "../../assets/topic-icons/historical-fiction.png",
+        "icon": "/src/assets/topic-icons/historical-fiction.png",
         "value": "Fiction Historique"
       },
       {
-        "icon": "../../assets/topic-icons/comedy.png",
+        "icon": "/src/assets/topic-icons/comedy.png",
         "value": "Comédie"
       },
       {
-        "icon": "../../assets/topic-icons/non-fiction.png",
+        "icon": "/src/assets/topic-icons/non-fiction.png",
         "value": "Non-fiction"
       },
       {
-        "icon": "../../assets/topic-icons/adventure.png",
+        "icon": "/src/assets/topic-icons/adventure.png",
         "value": "Aventure"
       },
       {
-        "icon": "../../assets/topic-icons/cyberpunk.png",
+        "icon": "/src/assets/topic-icons/cyberpunk.png",
         "value": "Cyberpunk"
       },
       {
-        "icon": "../../assets/topic-icons/virtual-reality-adventure.png",
+        "icon": "/src/assets/topic-icons/virtual-reality-adventure.png",
         "value": "Aventure en Réalité Virtuelle"
       },
       {
-        "icon": "../../assets/topic-icons/online-gaming-culture.png",
+        "icon": "/src/assets/topic-icons/online-gaming-culture.png",
         "value": "Culture du Jeu en Ligne"
       },
       {
-        "icon": "../../assets/topic-icons/workplace-drama.png",
+        "icon": "/src/assets/topic-icons/workplace-drama.png",
         "value": "Drame en Milieu Professionnel"
       },
       {
-        "icon": "../../assets/topic-icons/self-discovery-journeys.png",
+        "icon": "/src/assets/topic-icons/self-discovery-journeys.png",
         "value": "Voyages de Découverte de Soi"
       },
       {
-        "icon": "../../assets/topic-icons/family-dynamics.png",
+        "icon": "/src/assets/topic-icons/family-dynamics.png",
         "value": "Dynamiques Familiales"
       },
       {
-        "icon": "../../assets/topic-icons/second-chances.png",
+        "icon": "/src/assets/topic-icons/second-chances.png",
         "value": "Deuxième Chances"
       },
       {
-        "icon": "../../assets/topic-icons/rediscovering-passions.png",
+        "icon": "/src/assets/topic-icons/rediscovering-passions.png",
         "value": "Redécouverte des Passions"
       },
       {
-        "icon": "../../assets/topic-icons/reflection-on-life-choices.png",
+        "icon": "/src/assets/topic-icons/reflection-on-life-choices.png",
         "value": "Réflexion sur les Choix de Vie"
       },
       {
-        "icon": "../../assets/topic-icons/historical-biographies.png",
+        "icon": "/src/assets/topic-icons/historical-biographies.png",
         "value": "Biographies Historiques"
       },
       {
-        "icon": "../../assets/topic-icons/wisdom-tales.png",
+        "icon": "/src/assets/topic-icons/wisdom-tales.png",
         "value": "Contes de Sagesse"
       },
       {
-        "icon": "../../assets/topic-icons/nostalgic-reads.png",
+        "icon": "/src/assets/topic-icons/nostalgic-reads.png",
         "value": "Lectures Nostalgiques"
       }
     ]
