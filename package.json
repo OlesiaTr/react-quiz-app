@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "debounce": "^2.0.0",
     "i18next": "^23.9.0",
     "modern-normalize": "^2.0.0",
     "react": "^18.2.0",

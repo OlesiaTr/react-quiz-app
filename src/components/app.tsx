@@ -11,6 +11,9 @@ const AgeSelect = lazy(() => import('../pages/age-select-page.tsx'));
 const CritiqueSelect = lazy(() => import('../pages/critique-select-page.tsx'));
 const TopicSelect = lazy(() => import('../pages/topic-select-page.tsx'));
 const Loading = lazy(() => import('../pages/loading-page.tsx'));
+const GetAccessViaEmail = lazy(
+  () => import('../pages/get-access-via-email-page.tsx')
+);
 
 const App = () => {
   return (
@@ -23,6 +26,7 @@ const App = () => {
         <Route path="quiz/4" element={<CritiqueSelect />} />
         <Route path="quiz/5" element={<TopicSelect />} />
         <Route path="loading" element={<Loading />} />
+        <Route path="email" element={<GetAccessViaEmail />} />
       </Route>
     </Routes>
   );
