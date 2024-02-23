@@ -1,5 +1,6 @@
 const colors = {
   white: '#FFFFFF',
+  secondaryWhite: '#ECECFB',
   titleGray: '#F2F3F5',
   subtitleGray: '#C4C8CC',
   subtitleGrayWithOpacity: 'rgba(196, 200, 204, 0.50)',
