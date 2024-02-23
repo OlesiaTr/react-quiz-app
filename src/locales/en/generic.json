@@ -5,6 +5,7 @@
   "email": {
     "title": "Email Page",
     "sub-title": "Enter your email to get full access",
+    "type": "email",
     "placeholder": "Your email",
     "incorrect-error": "Incorrect email",
     "agreement": "By continuing I agree with Privacy policy and Terms of use."

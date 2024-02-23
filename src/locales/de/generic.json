@@ -5,6 +5,7 @@
   "email": {
     "title": "E-Mail Seite",
     "sub-title": "Geben Sie Ihre E-Mail-Adresse ein, um vollen Zugriff zu erhalten",
+    "type": "email",
     "placeholder": "Ihre E-Mail-Adresse",
     "incorrect-error": "Falsche E-Mail-Adresse",
     "agreement": "Durch die Fortsetzung stimme ich der Datenschutzrichtlinie und den Nutzungsbedingungen zu."

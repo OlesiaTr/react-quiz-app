@@ -5,6 +5,7 @@
   "email": {
     "title": "Página de Correo Electrónico",
     "sub-title": "Ingresa tu correo electrónico para obtener acceso completo",
+    "type": "email",
     "placeholder": "Tu correo electrónico",
     "incorrect-error": "Correo electrónico incorrecto",
     "agreement": "Al continuar, acepto la Política de privacidad y los Condiciones de uso."
