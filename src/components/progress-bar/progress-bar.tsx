@@ -1,5 +1,9 @@
 import { FC, useEffect, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
+
+import { getPageNumberFromPath } from '../../helpers';
 import { ArrowLeftIcon } from '../../assets/icons';
+
 import {
   Bar,
   Container,
@@ -9,8 +13,6 @@ import {
   QuestionContainer,
   Section,
 } from './progress-bar.styled';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { getPageNumberFromPath } from '../../helpers';
 
 export interface Props {
   question: number;

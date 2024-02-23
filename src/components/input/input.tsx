@@ -1,9 +1,10 @@
-import { FC } from 'react';
-import { ErrorText, StyledInput } from './input.styled';
+import { ChangeEvent, FC } from 'react';
 import { DebouncedFunction } from 'debounce';
 
+import { ErrorText, StyledInput } from './input.styled';
+
 export interface Props {
-  onChange: DebouncedFunction<(event: any) => void>;
+  onChange: DebouncedFunction<(event: ChangeEvent<HTMLInputElement>) => void>;
   isValid: boolean;
   errorDescription: string;
 }

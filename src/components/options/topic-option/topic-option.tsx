@@ -1,4 +1,5 @@
 import { FC } from 'react';
+
 import { Description, Image, Item } from './topic-option.styled';
 
 export interface Props {

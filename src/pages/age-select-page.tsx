@@ -1,10 +1,13 @@
 import { useLocation, useNavigate } from 'react-router-dom';
+
 import { ProgressBar } from '../components/progress-bar';
-import { AGE_KEY, TOTAL_AMOUNT_OF_QUESTIONS } from '../constants';
-import { getPageNumberFromPath } from '../helpers';
-import { useLocalization } from '../hooks';
 import { Title } from '../components/title';
 import { AgeOption } from '../components/options';
+
+import { AGE_KEY, TOTAL_AMOUNT_OF_QUESTIONS } from '../constants';
+import { getPageNumberFromPath } from '../helpers';
+
+import { useLocalization } from '../hooks';
 
 const AgeSelectPage = () => {
   const { pathname } = useLocation();

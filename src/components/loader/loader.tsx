@@ -1,4 +1,5 @@
 import { FC, useEffect, useState } from 'react';
+
 import { Background, Circle, Container, Text } from './loader.styled';
 
 export interface Props {

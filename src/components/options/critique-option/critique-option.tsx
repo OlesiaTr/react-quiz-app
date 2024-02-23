@@ -1,6 +1,8 @@
 import { FC, useEffect, useState } from 'react';
-import { Input, Item, Label } from './critique-option.styled';
+
 import { CRITIQUE_KEY } from '../../../constants';
+
+import { Input, Item, Label } from './critique-option.styled';
 
 export interface Props {
   critique: string;

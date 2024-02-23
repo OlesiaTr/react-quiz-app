@@ -1,4 +1,5 @@
 import { FC } from 'react';
+
 import { Description, Icon, Item } from './gender-option.styled';
 
 export interface Props {

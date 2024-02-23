@@ -1,12 +1,14 @@
 import { useLocation } from 'react-router-dom';
 
 import { ProgressBar } from '../components/progress-bar';
-import { TOTAL_AMOUNT_OF_QUESTIONS } from '../constants';
 import { Title } from '../components/title';
 import { SubTitle } from '../components/sub-title';
 import { LanguageOption } from '../components/options';
-import { useLocalization } from '../hooks';
+
+import { TOTAL_AMOUNT_OF_QUESTIONS } from '../constants';
 import { getPageNumberFromPath } from '../helpers';
+
+import { useLocalization } from '../hooks';
 
 const LanguageSelectPage = () => {
   const { pathname } = useLocation();

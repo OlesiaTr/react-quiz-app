@@ -1,4 +1,5 @@
 import { FC, ReactNode } from 'react';
+
 import { Text } from './sub-title.styled';
 
 export interface Props {

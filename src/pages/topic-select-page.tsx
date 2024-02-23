@@ -1,17 +1,20 @@
+import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+
 import { ProgressBar } from '../components/progress-bar';
+import { Title } from '../components/title';
+import { TopicOption } from '../components/options';
+import { Button } from '../components/button';
+import { SubTitle } from '../components/sub-title';
+
 import {
   GENRES_MAX_LIMIT,
   TOPIC_KEY,
   TOTAL_AMOUNT_OF_QUESTIONS,
 } from '../constants';
 import { getPageNumberFromPath } from '../helpers';
+
 import { useLocalization, useSelectedTopics } from '../hooks';
-import { Title } from '../components/title';
-import { TopicOption } from '../components/options';
-import { Button } from '../components/button';
-import { useEffect } from 'react';
-import { SubTitle } from '../components/sub-title';
 
 const AgeSelectPage = () => {
   const { pathname } = useLocation();

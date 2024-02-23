@@ -1,14 +1,17 @@
 import { useNavigate } from 'react-router-dom';
-import { EMAIL_KEY } from '../constants';
-import { colorizeTitle, validateEmail } from '../helpers';
-import { useLocalization } from '../hooks';
+import { useEffect, useState } from 'react';
+import debounce from 'debounce';
+
 import { Title } from '../components/title';
 import { SubTitle } from '../components/sub-title';
 import { Button } from '../components/button';
 import { Input } from '../components/input';
-import { useEffect, useState } from 'react';
-import debounce from 'debounce';
 import { ConsentAgreement } from '../components/consent-agreement';
+
+import { EMAIL_KEY } from '../constants';
+import { colorizeTitle, validateEmail } from '../helpers';
+
+import { useLocalization } from '../hooks';
 
 const GetAccessViaEmailPage = () => {
   const navigate = useNavigate();

@@ -1,10 +1,12 @@
 import { useNavigate } from 'react-router-dom';
-import { getQuizData } from '../helpers';
-import { useLocalization } from '../hooks';
+import exportFromJSON from 'export-from-json';
+
 import { Button } from '../components/button';
 import { QuizCompletionMessage } from '../components/quiz-completion-message';
 import { DownloadButton } from '../components/download-button';
-import exportFromJSON from 'export-from-json';
+
+import { getQuizData } from '../helpers';
+import { useLocalization } from '../hooks';
 
 const DownloadResultPage = () => {
   const navigate = useNavigate();

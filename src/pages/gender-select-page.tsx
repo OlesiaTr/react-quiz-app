@@ -1,11 +1,14 @@
 import { useLocation, useNavigate } from 'react-router-dom';
+
 import { ProgressBar } from '../components/progress-bar';
-import { GENDER_KEY, TOTAL_AMOUNT_OF_QUESTIONS } from '../constants';
-import { getPageNumberFromPath } from '../helpers';
-import { useLocalization } from '../hooks';
 import { Title } from '../components/title';
 import { SubTitle } from '../components/sub-title';
 import { GenderOption } from '../components/options';
+
+import { GENDER_KEY, TOTAL_AMOUNT_OF_QUESTIONS } from '../constants';
+import { getPageNumberFromPath } from '../helpers';
+
+import { useLocalization } from '../hooks';
 
 const GenderSelectPage = () => {
   const { pathname } = useLocation();

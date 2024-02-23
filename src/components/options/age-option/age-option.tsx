@@ -1,4 +1,5 @@
 import { FC } from 'react';
+
 import { Item } from './age-option.styled';
 
 export interface Props {

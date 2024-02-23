@@ -1,12 +1,15 @@
 import { useLocation, useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+
 import { ProgressBar } from '../components/progress-bar';
-import { CRITIQUE_KEY, TOTAL_AMOUNT_OF_QUESTIONS } from '../constants';
-import { colorizeTitle, getPageNumberFromPath } from '../helpers';
-import { useLocalization } from '../hooks';
 import { Title } from '../components/title';
 import { CritiqueOption } from '../components/options';
-import { useEffect, useState } from 'react';
 import { Button } from '../components/button';
+
+import { CRITIQUE_KEY, TOTAL_AMOUNT_OF_QUESTIONS } from '../constants';
+import { colorizeTitle, getPageNumberFromPath } from '../helpers';
+
+import { useLocalization } from '../hooks';
 
 const AgeSelectPage = () => {
   const { pathname } = useLocation();

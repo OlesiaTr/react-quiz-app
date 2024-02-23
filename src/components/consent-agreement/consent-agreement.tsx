@@ -1,4 +1,5 @@
 import { FC } from 'react';
+
 import { Text } from './consent-agreement.styled';
 
 export interface Props {
@@ -6,7 +7,6 @@ export interface Props {
 }
 
 const ConsentAgreement: FC<Props> = ({ htmlContent }) => {
-  console.log('htmlContent: ', htmlContent);
   return <Text dangerouslySetInnerHTML={{ __html: htmlContent }} />;
 };
 

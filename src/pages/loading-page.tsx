@@ -1,8 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 
-import { useLocalization } from '../hooks';
 import { SubTitle } from '../components/sub-title';
 import { Loader } from '../components/loader';
+
+import { useLocalization } from '../hooks';
 
 const LoadingPage = () => {
   const navigate = useNavigate();

@@ -1,8 +1,9 @@
-import { useTranslation } from 'react-i18next';
-import { GenericData, QuestionData } from '../types';
 import { useEffect, useState } from 'react';
-import { LanguageLocales } from '../enums';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
+import { GenericData, QuestionData } from '../types';
+import { LanguageLocales } from '../enums';
 import { LANGUAGE_ABBREVIATION_KEY, LANGUAGE_KEY } from '../constants';
 
 export const useLocalization = () => {
