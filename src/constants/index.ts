@@ -9,6 +9,9 @@ export {
   AGE_KEY,
   CRITIQUE_KEY,
   TOPIC_KEY,
+  EMAIL_KEY,
 } from './local-storage-keys.ts';
+
+export { EMAIL_REGEX } from './regex-variables.ts';
 
 export { TOTAL_AMOUNT_OF_QUESTIONS } from './total-amount-of-questions.ts';
