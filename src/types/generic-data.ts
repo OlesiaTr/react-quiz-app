@@ -5,6 +5,7 @@ export interface GenericData {
   email: {
     title: string;
     'sub-title': string;
+    type: string;
     placeholder: string;
     'empty-error': string;
     'incorrect-error': string;
