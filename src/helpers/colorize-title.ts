@@ -1,11 +1,18 @@
 const colorizedWords: {
   [key: string]: string[];
 } = {
-  en: ['hate'],
-  de: ['wenigsten'],
-  es: ['odias'],
-  fr: ['détestez'],
-  ua: ['не'],
+  en: ['hate', 'privacy', 'policy', 'terms', 'of', 'use.'],
+  de: ['wenigsten', 'datenschutzrichtlinie', 'nutzungsbedingungen'],
+  es: ['odias', 'política', 'de', 'privacidad', 'condiciones', 'uso.'],
+  fr: [
+    'détestez',
+    'politique',
+    'de',
+    'confidentialité',
+    'conditions',
+    "d'utilisation.",
+  ],
+  ua: ['не', 'політикою', 'конфіденційності', 'умовами', 'використання.'],
 };
 
 export const colorizeTitle = (title: string, language: string) => {
