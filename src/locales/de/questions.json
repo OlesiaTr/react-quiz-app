@@ -101,20 +101,38 @@
         "value": "Non-Fiction"
       },
       {
-        "icon": "/src/assets/topic-icons/adventure.png",
-        "value": "Abenteuer"
-      },
+        "icon": "/src/assets/topic-icons/family-dynamics.png",
+        "value": "Familiendynamik"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "bubble",
+    "title": "Was sind deine Lieblingsthemen für 18-29 Jahre?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/cyberpunk.png",
         "value": "Cyberpunk"
       },
       {
         "icon": "/src/assets/topic-icons/virtual-reality-adventure.png",
-        "value": "Virtual Reality Abenteuer"
+        "value": "Virtuelles Realitätsabenteuer"
       },
       {
         "icon": "/src/assets/topic-icons/online-gaming-culture.png",
         "value": "Online-Gaming-Kultur"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "bubble",
+    "title": "Was sind deine Lieblingsthemen für 30-39 Jahre?",
+    "options": [
+      {
+        "icon": "/src/assets/topic-icons/adventure.png",
+        "value": "Abenteuer"
       },
       {
         "icon": "/src/assets/topic-icons/workplace-drama.png",
@@ -122,24 +140,34 @@
       },
       {
         "icon": "/src/assets/topic-icons/self-discovery-journeys.png",
-        "value": "Selbsterkundungsreisen"
-      },
-      {
-        "icon": "/src/assets/topic-icons/family-dynamics.png",
-        "value": "Familiendynamik"
-      },
+        "value": "Selbstentdeckungsreisen"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "bubble",
+    "title": "Was sind deine Lieblingsthemen für 40-49 Jahre?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/second-chances.png",
         "value": "Zweite Chancen"
       },
       {
         "icon": "/src/assets/topic-icons/rediscovering-passions.png",
-        "value": "Wiederentdeckung von Leidenschaften"
+        "value": "Wiederentdecken von Leidenschaften"
       },
       {
         "icon": "/src/assets/topic-icons/reflection-on-life-choices.png",
         "value": "Reflexion über Lebensentscheidungen"
-      },
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "bubble",
+    "title": "Was sind deine Lieblingsthemen für 50+ Jahre?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/historical-biographies.png",
         "value": "Historische Biografien"

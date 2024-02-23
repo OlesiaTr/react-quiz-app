@@ -101,56 +101,84 @@
         "value": "Нехудожня Література"
       },
       {
-        "icon": "/src/assets/topic-icons/adventure.png",
-        "value": "Пригоди"
-      },
+        "icon": "/src/assets/topic-icons/family-dynamics.png",
+        "value": "Сімейна Динаміка"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "bubble",
+    "title": "Які ваші улюблені теми для вікової групи 18-29 років?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/cyberpunk.png",
         "value": "Кіберпанк"
       },
       {
         "icon": "/src/assets/topic-icons/virtual-reality-adventure.png",
-        "value": "Пригоди у Віртуальній Реальності"
+        "value": "Віртуальні пригоди"
       },
       {
         "icon": "/src/assets/topic-icons/online-gaming-culture.png",
-        "value": "Культура Онлайн-Геймінгу"
+        "value": "Культура онлайн-ігор"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "bubble",
+    "title": "Які ваші улюблені теми для вікової групи 30-39 років?",
+    "options": [
+      {
+        "icon": "/src/assets/topic-icons/adventure.png",
+        "value": "Пригоди"
       },
       {
         "icon": "/src/assets/topic-icons/workplace-drama.png",
-        "value": "Драма на Робочому Місці"
+        "value": "Драма на роботі"
       },
       {
         "icon": "/src/assets/topic-icons/self-discovery-journeys.png",
-        "value": "Подорожі в Пошуках Себе"
-      },
-      {
-        "icon": "/src/assets/topic-icons/family-dynamics.png",
-        "value": "Сімейна Динаміка"
-      },
+        "value": "Подорожі самовідкриття"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "bubble",
+    "title": "Які ваші улюблені теми для вікової групи 40-49 років?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/second-chances.png",
-        "value": "Другий Шанс"
+        "value": "Другий шанс"
       },
       {
         "icon": "/src/assets/topic-icons/rediscovering-passions.png",
-        "value": "Відкриття Страстей"
+        "value": "Відкриття страстей"
       },
       {
         "icon": "/src/assets/topic-icons/reflection-on-life-choices.png",
-        "value": "Рефлексія над Виборами у Житті"
-      },
+        "value": "Рефлексія життя"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "bubble",
+    "title": "Які ваші улюблені теми для вікової групи 50+ років?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/historical-biographies.png",
-        "value": "Історичні Біографії"
+        "value": "Історичні біографії"
       },
       {
         "icon": "/src/assets/topic-icons/wisdom-tales.png",
-        "value": "Повчальні Казки"
+        "value": "Історії мудрості"
       },
       {
         "icon": "/src/assets/topic-icons/nostalgic-reads.png",
-        "value": "Ностальгічні Читання"
+        "value": "Ностальгійні читання"
       }
     ]
   }

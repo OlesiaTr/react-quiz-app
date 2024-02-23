@@ -32,7 +32,7 @@
       { "value": "18-29 years" },
       { "value": "30-39 years" },
       { "value": "40-49 years" },
-      { "value": "59+ years" }
+      { "value": "50+ years" }
     ]
   },
   {
@@ -97,21 +97,40 @@
         "icon": "/src/assets/topic-icons/non-fiction.png",
         "value": "Non-fiction"
       },
+
       {
-        "icon": "/src/assets/topic-icons/adventure.png",
-        "value": "Adventure"
-      },
+        "icon": "/src/assets/topic-icons/family-dynamics.png",
+        "value": "Family Dynamics"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "bubble",
+    "title": "What are your favorite topics for 18-29 years?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/cyberpunk.png",
         "value": "Cyberpunk"
       },
       {
         "icon": "/src/assets/topic-icons/virtual-reality-adventure.png",
-        "value": "Virtual Reality Adventure"
+        "value": "VR Adventure"
       },
       {
         "icon": "/src/assets/topic-icons/online-gaming-culture.png",
-        "value": "Online Gaming Culture"
+        "value": "Online Gaming"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "bubble",
+    "title": "What are your favorite topics for 30-39 years?",
+    "options": [
+      {
+        "icon": "/src/assets/topic-icons/adventure.png",
+        "value": "Adventure"
       },
       {
         "icon": "/src/assets/topic-icons/workplace-drama.png",
@@ -119,12 +138,15 @@
       },
       {
         "icon": "/src/assets/topic-icons/self-discovery-journeys.png",
-        "value": "Self Discovery Journeys"
-      },
-      {
-        "icon": "/src/assets/topic-icons/family-dynamics.png",
-        "value": "Family Dynamics"
-      },
+        "value": "Self Discovery"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "bubble",
+    "title": "What are your favorite topics for 40-49 years?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/second-chances.png",
         "value": "Second Chances"
@@ -135,8 +157,15 @@
       },
       {
         "icon": "/src/assets/topic-icons/reflection-on-life-choices.png",
-        "value": "Reflection on Life Choices"
-      },
+        "value": "Reflection on Life"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "bubble",
+    "title": "What are your favorite topics for 50+ years?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/historical-biographies.png",
         "value": "Historical Biographies"

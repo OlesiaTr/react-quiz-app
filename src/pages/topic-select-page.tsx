@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import { ProgressBar } from '../components/progress-bar';
@@ -8,11 +8,13 @@ import { Button } from '../components/button';
 import { SubTitle } from '../components/sub-title';
 
 import {
+  AGE_KEY,
   GENRES_MAX_LIMIT,
   TOPIC_KEY,
   TOTAL_AMOUNT_OF_QUESTIONS,
 } from '../constants';
-import { getPageNumberFromPath } from '../helpers';
+import { getPageNumberFromPath, getTopicsBasedOnAge } from '../helpers';
+import { Option } from '../types';
 
 import { useLocalization, useSelectedTopics } from '../hooks';
 
@@ -20,18 +22,27 @@ const AgeSelectPage = () => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const page = getPageNumberFromPath(pathname);
+  const [topicCollection, setTopicCollection] = useState<Option[] | []>([]);
   const { genericTranslation, selectedTranslation } = useLocalization();
   const { selectedTopics, updateSelectedTopics, setSelectedTopics } =
     useSelectedTopics(TOPIC_KEY, GENRES_MAX_LIMIT);
 
   useEffect(() => {
+    const selectedAge = localStorage.getItem(AGE_KEY);
     const selectedTopicsString = localStorage.getItem(TOPIC_KEY);
     const selectedTopics: string[] = selectedTopicsString
       ? JSON.parse(selectedTopicsString)
       : [];
 
+    if (selectedTranslation !== null) {
+      const collectedTopics = getTopicsBasedOnAge(
+        selectedAge!,
+        selectedTranslation
+      );
+      setTopicCollection(collectedTopics);
+    }
     setSelectedTopics(selectedTopics);
-  }, [setSelectedTopics]);
+  }, [selectedTranslation, setSelectedTopics]);
 
   const handleTopicSelect = (topic: string) => {
     updateSelectedTopics(topic);
@@ -62,7 +73,7 @@ const AgeSelectPage = () => {
             gap: '8px',
           }}
         >
-          {selectedTranslation[4].options.map(({ icon, value }) => (
+          {topicCollection.map(({ icon, value }) => (
             <TopicOption
               onClick={() => handleTopicSelect(value)}
               topic={value}

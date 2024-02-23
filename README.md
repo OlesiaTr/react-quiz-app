@@ -5,6 +5,7 @@
 ## Implemented features
 
 - Ability for users to answer questions.
+- Dynamic rendering of topics based on users' age.
 - Multi-language support using localization hooks.
 - Display progress through a quiz with a progress bar.
 - Storing and retrieving data using `localStorage`.

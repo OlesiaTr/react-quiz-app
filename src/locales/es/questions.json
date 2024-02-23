@@ -101,33 +101,54 @@
         "value": "No Ficción"
       },
       {
-        "icon": "/src/assets/topic-icons/adventure.png",
-        "value": "Aventura"
-      },
+        "icon": "/src/assets/topic-icons/family-dynamics.png",
+        "value": "Dinámica Familiar"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "bubble",
+    "title": "¿Cuáles son tus temas favoritos para 18-29 años?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/cyberpunk.png",
         "value": "Ciberpunk"
       },
       {
         "icon": "/src/assets/topic-icons/virtual-reality-adventure.png",
-        "value": "Aventura de Realidad Virtual"
+        "value": "Aventuras VR"
       },
       {
         "icon": "/src/assets/topic-icons/online-gaming-culture.png",
-        "value": "Cultura de Juegos en Línea"
+        "value": "Cultura Juegos"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "bubble",
+    "title": "¿Cuáles son tus temas favoritos para 30-39 años?",
+    "options": [
+      {
+        "icon": "/src/assets/topic-icons/adventure.png",
+        "value": "Aventura"
       },
       {
         "icon": "/src/assets/topic-icons/workplace-drama.png",
-        "value": "Drama Laboral"
+        "value": "Drama en el Trabajo"
       },
       {
         "icon": "/src/assets/topic-icons/self-discovery-journeys.png",
         "value": "Viajes de Autodescubrimiento"
-      },
-      {
-        "icon": "/src/assets/topic-icons/family-dynamics.png",
-        "value": "Dinámica Familiar"
-      },
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "bubble",
+    "title": "¿Cuáles son tus temas favoritos para 40-49 años?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/second-chances.png",
         "value": "Segundas Oportunidades"
@@ -138,8 +159,15 @@
       },
       {
         "icon": "/src/assets/topic-icons/reflection-on-life-choices.png",
-        "value": "Reflexión sobre Decisiones de Vida"
-      },
+        "value": "Decisiones Vitales"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "bubble",
+    "title": "¿Cuáles son tus temas favoritos para 50+ años?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/historical-biographies.png",
         "value": "Biografías Históricas"

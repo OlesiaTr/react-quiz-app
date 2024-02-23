@@ -104,56 +104,84 @@
         "value": "Non-fiction"
       },
       {
-        "icon": "/src/assets/topic-icons/adventure.png",
-        "value": "Aventure"
-      },
+        "icon": "/src/assets/topic-icons/family-dynamics.png",
+        "value": "Dynamiques Familiales"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "bubble",
+    "title": "Quels sont vos sujets préférés pour les 18-29 ans?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/cyberpunk.png",
         "value": "Cyberpunk"
       },
       {
         "icon": "/src/assets/topic-icons/virtual-reality-adventure.png",
-        "value": "Aventure en Réalité Virtuelle"
+        "value": "Aventures virtuelles"
       },
       {
         "icon": "/src/assets/topic-icons/online-gaming-culture.png",
-        "value": "Culture du Jeu en Ligne"
+        "value": "Culture du jeu en ligne"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "bubble",
+    "title": "Quels sont vos sujets préférés pour les 30-39 ans?",
+    "options": [
+      {
+        "icon": "/src/assets/topic-icons/adventure.png",
+        "value": "Aventure"
       },
       {
         "icon": "/src/assets/topic-icons/workplace-drama.png",
-        "value": "Drame en Milieu Professionnel"
+        "value": "Drame au travail"
       },
       {
         "icon": "/src/assets/topic-icons/self-discovery-journeys.png",
-        "value": "Voyages de Découverte de Soi"
-      },
-      {
-        "icon": "/src/assets/topic-icons/family-dynamics.png",
-        "value": "Dynamiques Familiales"
-      },
+        "value": "Voyages intérieurs"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "bubble",
+    "title": "Quels sont vos sujets préférés pour les 40-49 ans?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/second-chances.png",
-        "value": "Deuxième Chances"
+        "value": "Deuxième chances"
       },
       {
         "icon": "/src/assets/topic-icons/rediscovering-passions.png",
-        "value": "Redécouverte des Passions"
+        "value": "Redécouverte des passions"
       },
       {
         "icon": "/src/assets/topic-icons/reflection-on-life-choices.png",
-        "value": "Réflexion sur les Choix de Vie"
-      },
+        "value": "Réflexion"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "bubble",
+    "title": "Quels sont vos sujets préférés pour les 50 ans et plus?",
+    "options": [
       {
         "icon": "/src/assets/topic-icons/historical-biographies.png",
-        "value": "Biographies Historiques"
+        "value": "Biographies historiques"
       },
       {
         "icon": "/src/assets/topic-icons/wisdom-tales.png",
-        "value": "Contes de Sagesse"
+        "value": "Contes de sagesse"
       },
       {
         "icon": "/src/assets/topic-icons/nostalgic-reads.png",
-        "value": "Lectures Nostalgiques"
+        "value": "Lectures nostalgiques"
       }
     ]
   }

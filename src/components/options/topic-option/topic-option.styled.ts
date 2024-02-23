@@ -8,6 +8,7 @@ export const Item = styled.li<{ $isChecked: boolean }>`
   align-items: center;
   justify-content: center;
   gap: 6px;
+  overflow-x: hidden;
 
   width: 88px;
   height: 88px;
@@ -32,8 +33,10 @@ export const Item = styled.li<{ $isChecked: boolean }>`
     background-color: ${theme.colors.mainPinkWithOpacity};
   }
 
-  &:nth-child(even) {
-    transform: translateY(15px);
+  @media screen and (${theme.media.medium}) {
+    &:nth-child(even) {
+      transform: translateY(15px);
+    }
   }
 `;
 
