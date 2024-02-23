@@ -35,7 +35,7 @@ const AgeSelectPage = () => {
   };
 
   const handleBtnClick = () => {
-    navigate(`/quiz/${Number(page) + 1}`);
+    navigate(`/loading`);
   };
 
   if (selectedTranslation === null || genericTranslation === null)
