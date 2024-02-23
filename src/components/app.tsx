@@ -9,6 +9,7 @@ const LanguageSelect = lazy(() => import('../pages/language-select-page.tsx'));
 const GenderSelect = lazy(() => import('../pages/gender-select-page.tsx'));
 const AgeSelect = lazy(() => import('../pages/age-select-page.tsx'));
 const CritiqueSelect = lazy(() => import('../pages/critique-select-page.tsx'));
+const TopicSelect = lazy(() => import('../pages/topic-select-page.tsx'));
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="quiz/2" element={<GenderSelect />} />
         <Route path="quiz/3" element={<AgeSelect />} />
         <Route path="quiz/4" element={<CritiqueSelect />} />
+        <Route path="quiz/5" element={<TopicSelect />} />
       </Route>
     </Routes>
   );
