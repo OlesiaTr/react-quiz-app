@@ -14,6 +14,7 @@ const Loading = lazy(() => import('../pages/loading-page.tsx'));
 const GetAccessViaEmail = lazy(
   () => import('../pages/get-access-via-email-page.tsx')
 );
+const DownloadResult = lazy(() => import('../pages/download-result-page.tsx'));
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="quiz/5" element={<TopicSelect />} />
         <Route path="loading" element={<Loading />} />
         <Route path="email" element={<GetAccessViaEmail />} />
+        <Route path="results" element={<DownloadResult />} />
       </Route>
     </Routes>
   );
