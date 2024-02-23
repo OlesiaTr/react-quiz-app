@@ -1,11 +1,9 @@
-import{b as o,t,j as n}from"./index-ED9gzTx7.js";const i=o.h2`
+import{b as o,t,j as n}from"./index-BFNabtH6.js";const i=o.h2`
   color: ${t.colors.subtitleGray};
-
   text-align: center;
   font-family: ${t.fonts.nunito};
   font-size: ${t.fontSizes.m};
   font-weight: ${t.fontWeights.normal};
-
   line-height: 141%;
 
   margin-bottom: 24px;
