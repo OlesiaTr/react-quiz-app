@@ -1,4 +1,4 @@
-import{b as s,t,j as e}from"./index-BFNabtH6.js";const o=s.h1`
+import{b as s,t,j as e}from"./index-D86K3tRG.js";const o=s.h1`
   color: ${t.colors.white};
   text-align: center;
   font-size: ${t.fontSizes.xl};

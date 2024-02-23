@@ -1,4 +1,4 @@
-import{b as n,t as s,r as a,j as t,a as l}from"./index-BFNabtH6.js";import{S as d}from"./sub-title-B60E1Sl0.js";import{u as f}from"./use-localization-vc0mfw3R.js";const h=n.svg`
+import{b as n,t as s,r as a,j as t,a as l}from"./index-D86K3tRG.js";import{S as d}from"./sub-title-BR7dt68j.js";import{u as f}from"./use-localization-C43xtzzH.js";const h=n.svg`
   width: 100%;
   height: 100%;
   transform: rotate(-90deg);

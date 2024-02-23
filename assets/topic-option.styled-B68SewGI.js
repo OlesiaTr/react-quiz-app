@@ -1,4 +1,4 @@
-import{j as n,b as i,t as o,u as g,a as x,r as s}from"./index-BFNabtH6.js";const $="1",B=5,u=e=>e.split("/").pop()??$,b=({width:e,height:r,stroke:t})=>n.jsx("svg",{width:e??"24",height:r??"24",viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:n.jsx("path",{d:"M9 6.5L2.5 13L9 19.5",stroke:t??"white",strokeWidth:"2.5",strokeLinecap:"round"})}),f=i.section`
+import{j as n,b as i,t as o,u as g,a as x,r as s}from"./index-D86K3tRG.js";const $="1",B=5,u=e=>e.split("/").pop()??$,b=({width:e,height:r,stroke:t})=>n.jsx("svg",{width:e??"24",height:r??"24",viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:n.jsx("path",{d:"M9 6.5L2.5 13L9 19.5",stroke:t??"white",strokeWidth:"2.5",strokeLinecap:"round"})}),f=i.section`
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
@@ -268,6 +268,7 @@ import{j as n,b as i,t as o,u as g,a as x,r as s}from"./index-BFNabtH6.js";const
   align-items: center;
   justify-content: center;
   gap: 6px;
+  overflow-x: hidden;
 
   width: 88px;
   height: 88px;
@@ -290,8 +291,10 @@ import{j as n,b as i,t as o,u as g,a as x,r as s}from"./index-BFNabtH6.js";const
     background-color: ${o.colors.mainPinkWithOpacity};
   }
 
-  &:nth-child(even) {
-    transform: translateY(15px);
+  @media screen and (${o.media.medium}) {
+    &:nth-child(even) {
+      transform: translateY(15px);
+    }
   }
 `,_=i.img`
   width: 25px;

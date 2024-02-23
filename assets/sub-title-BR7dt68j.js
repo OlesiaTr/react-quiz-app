@@ -1,4 +1,4 @@
-import{b as o,t,j as n}from"./index-BFNabtH6.js";const i=o.h2`
+import{b as o,t,j as n}from"./index-D86K3tRG.js";const i=o.h2`
   color: ${t.colors.subtitleGray};
   text-align: center;
   font-family: ${t.fonts.nunito};
