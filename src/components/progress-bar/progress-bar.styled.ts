@@ -4,18 +4,19 @@ import { theme } from '../../styles';
 export const Section = styled.section`
   justify-content: space-between;
   align-items: center;
-  color: white;
   flex-direction: column;
   margin-bottom: 30px;
   width: 100%;
+
+  color: white;
 `;
 
 export const Container = styled.div`
   display: flex;
-  margin-bottom: 8px;
   justify-content: space-between;
   align-items: center;
   height: 40px;
+  margin-bottom: 8px;
 `;
 
 export const GoBackBtn = styled.button<{ $isGoBackBtnShown: boolean }>`
@@ -36,7 +37,6 @@ export const GoBackBtn = styled.button<{ $isGoBackBtnShown: boolean }>`
 
 export const QuestionContainer = styled.p`
   margin: 0 auto;
-
   font-size: ${theme.fontSizes.xm};
   font-weight: ${theme.fontWeights['extra-bold']};
   line-height: 111%;

@@ -10,19 +10,17 @@ export const Item = styled.li<{ $isChecked: boolean }>`
 
   width: 88px;
   height: 88px;
+  border-radius: 50%;
 
   cursor: pointer;
+  transition: ${theme.transition.main};
+  user-select: none;
 
   background-color: ${({ $isChecked }) =>
     $isChecked ? theme.colors.mainPinkWithOpacity : theme.colors.secondaryBg};
-
   border: ${theme.borders.medium};
   border-color: ${({ $isChecked }) =>
     $isChecked ? theme.colors.mainPink : theme.colors.secondaryBg};
-
-  border-radius: 50%;
-  transition: ${theme.transition.main};
-  user-select: none;
 
   &:hover {
     border-color: ${theme.colors.mainPink};
@@ -45,7 +43,6 @@ export const Image = styled.img`
 
 export const Description = styled.p`
   color: ${theme.colors.white};
-
   text-align: center;
   font-family: ${theme.fonts.nunito};
   font-size: ${theme.fontSizes.xs};

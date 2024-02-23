@@ -4,17 +4,19 @@ import { theme } from '../../../styles';
 export const Item = styled.li`
   width: 100%;
   min-height: 60px;
-  color: ${theme.colors.white};
-  font-size: ${theme.fontSizes.m};
-  background-color: ${theme.colors.secondaryBg};
-  font-weight: ${theme.fontWeights['semi-bold']};
-  line-height: 141%;
-  border: ${theme.borders.medium} transparent;
-  border-radius: 16px;
   padding: 16px 20px;
+  border-radius: 16px;
   cursor: pointer;
   transition: ${theme.transition.main};
   user-select: none;
+
+  color: ${theme.colors.white};
+  font-size: ${theme.fontSizes.m};
+  font-weight: ${theme.fontWeights['semi-bold']};
+  line-height: 141%;
+
+  background-color: ${theme.colors.secondaryBg};
+  border: ${theme.borders.medium} transparent;
 
   & + & {
     margin-top: 12px;

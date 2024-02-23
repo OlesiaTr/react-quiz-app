@@ -3,7 +3,6 @@ import { theme } from '../../styles';
 
 export const Title = styled.h1`
   color: ${theme.colors.secondaryWhite};
-
   text-align: center;
   font-family: ${theme.fonts.cursive};
   font-size: ${theme.fontSizes.xxl};
@@ -18,7 +17,6 @@ export const Title = styled.h1`
 export const SubTitle = styled.h2`
   color: ${theme.colors.secondaryWhite};
   text-align: center;
-
   font-size: ${theme.fontSizes.m};
   font-weight: ${theme.fontWeights['semi-bold']};
   line-height: 147%;

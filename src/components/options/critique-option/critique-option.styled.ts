@@ -4,6 +4,10 @@ import { theme } from '../../../styles';
 export const Item = styled.li<{ $isChecked: boolean }>`
   min-width: 335px;
   min-height: 76px;
+  border-radius: 16px;
+  transition: ${theme.transition.main};
+  user-select: none;
+
   color: ${theme.colors.white};
   background-color: ${({ $isChecked }) =>
     $isChecked ? theme.colors.mainPinkWithOpacity : theme.colors.secondaryBg};
@@ -11,10 +15,6 @@ export const Item = styled.li<{ $isChecked: boolean }>`
   border: ${theme.borders.medium};
   border-color: ${({ $isChecked }) =>
     $isChecked ? theme.colors.mainPinkWithOpacity : theme.colors.secondaryBg};
-
-  border-radius: 16px;
-  transition: ${theme.transition.main};
-  user-select: none;
 
   & + & {
     margin-top: 12px;
@@ -31,7 +31,6 @@ export const Item = styled.li<{ $isChecked: boolean }>`
 
   @media screen and (${theme.media.medium}) {
     min-width: 420px;
-
     font-size: ${theme.fontSizes.xm};
 
     & + & {
@@ -45,12 +44,13 @@ export const Label = styled.label`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 23px 20px;
+  cursor: pointer;
+
   font-size: ${theme.fontSizes.m};
   font-weight: ${theme.fontWeights.medium};
   line-height: 141%;
   letter-spacing: -0.17px;
-  padding: 23px 20px;
-  cursor: pointer;
 
   &::after {
     content: '';

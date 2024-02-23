@@ -3,7 +3,6 @@ import { theme } from '../../styles';
 
 export const Text = styled.h1`
   color: ${theme.colors.white};
-
   text-align: center;
   font-size: ${theme.fontSizes.xl};
   font-weight: ${theme.fontWeights['extra-bold']};
