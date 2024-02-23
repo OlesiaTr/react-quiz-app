@@ -6,9 +6,8 @@
     "title": "Page Email",
     "sub-title": "Entrez votre adresse e-mail pour obtenir un accès complet",
     "placeholder": "Votre adresse e-mail",
-    "empty-error": "L'adresse e-mail ne peut pas être vide",
     "incorrect-error": "Adresse e-mail incorrecte",
-    "agreement": "En continuant, j'accepte la politique de confidentialité et les conditions d'utilisation."
+    "agreement": "En continuant, j'accepte la Politique de confidentialité et les Conditions d'utilisation."
   },
   "success": {
     "title": "Merci",

@@ -6,9 +6,8 @@
     "title": "Página de Correo Electrónico",
     "sub-title": "Ingresa tu correo electrónico para obtener acceso completo",
     "placeholder": "Tu correo electrónico",
-    "empty-error": "El correo electrónico no puede estar vacío",
     "incorrect-error": "Correo electrónico incorrecto",
-    "agreement": "Al continuar, acepto la política de privacidad y los términos de uso."
+    "agreement": "Al continuar, acepto la Política de privacidad y los Condiciones de uso."
   },
   "success": {
     "title": "Gracias",
