@@ -2,12 +2,14 @@ const colors = {
   white: '#FFFFFF',
   titleGray: '#F2F3F5',
   subtitleGray: '#C4C8CC',
+  subtitleGrayWithOpacity: 'rgba(196, 200, 204, 0.50)',
   mainPink: '#E4229B',
   mainPinkWithOpacity: 'rgba(228,34,155,0.2)',
   secondaryPink: '#E4229C',
   mainBg: '#1f002b',
   secondaryBg: '#36173d',
   checkboxBg: '#6D4376',
+  inputError: '#ef7878',
 };
 
 const fonts = {
