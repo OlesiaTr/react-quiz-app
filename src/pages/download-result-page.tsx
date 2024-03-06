@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import exportFromJSON from 'export-from-json';
 
@@ -11,6 +12,7 @@ import { useLocalization } from '../hooks';
 const DownloadResultPage = () => {
   const navigate = useNavigate();
   const { genericTranslation, selectedTranslation } = useLocalization();
+  const [isLoading, setIsLoading] = useState(false);
 
   const exportResultsToCSV = () => {
     const data = getQuizData(genericTranslation, selectedTranslation);
@@ -29,9 +31,37 @@ const DownloadResultPage = () => {
     });
   };
 
-  const handleBtnClick = () => {
-    localStorage.clear();
-    navigate(`/quiz/1`);
+  const handleBtnClick = async () => {
+    setIsLoading(true);
+
+    try {
+      // Mock API endpoint for storing user data
+      const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
+
+      const userData = {
+        userId: 1, // Should be replaced with actual user id
+        answers: getQuizData(genericTranslation, selectedTranslation),
+      };
+
+      const response = await fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(userData),
+      });
+
+      if (response.ok) {
+        localStorage.clear();
+        navigate(`/quiz/1`);
+      } else {
+        console.error('API call failed');
+      }
+    } catch (error) {
+      console.error('An error occurred during the API call', error);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   if (genericTranslation === null) return <h1>Loading...</h1>;
@@ -82,7 +112,7 @@ const DownloadResultPage = () => {
             onClick={exportResultsToCSV}
           />
           <Button onClick={handleBtnClick}>
-            {genericTranslation.button.retake}
+            {isLoading ? 'Loading...' : genericTranslation.button.retake}
           </Button>
         </div>
       </section>
