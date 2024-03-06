@@ -9,7 +9,7 @@ import { Button } from '../components/button';
 import { CRITIQUE_KEY, TOTAL_AMOUNT_OF_QUESTIONS } from '../constants';
 import { colorizeTitle, getPageNumberFromPath } from '../helpers';
 
-import { useLocalization } from '../hooks';
+import { useLocalization, useResponsivePadding } from '../hooks';
 
 const AgeSelectPage = () => {
   const { pathname } = useLocation();
@@ -19,6 +19,8 @@ const AgeSelectPage = () => {
     useLocalization();
 
   const [colorizedTitle, setColorizedTitle] = useState<string>('');
+
+  const paddingBottom = useResponsivePadding('60px', 768);
 
   useEffect(() => {
     if (selectedTranslation) {
@@ -71,7 +73,12 @@ const AgeSelectPage = () => {
         <Title htmlContent={colorizedTitle}>
           {selectedTranslation[3].title}
         </Title>
-        <ul style={{ marginBottom: '26px' }}>
+        <ul
+          style={{
+            marginBottom: '26px',
+            paddingBottom,
+          }}
+        >
           {selectedTranslation[3].options.map(({ value }) => (
             <CritiqueOption
               onClick={() => handleCritiqueSelect(value)}

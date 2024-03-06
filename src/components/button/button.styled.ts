@@ -3,9 +3,13 @@ import { styled } from 'styled-components';
 import { theme } from '../../styles';
 
 export const StyledButton = styled.button`
-  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: calc(100% - 40px);
   min-height: 56px;
-  padding: 13px 0;
   border: none;
   border-radius: 30px;
 
@@ -18,5 +22,11 @@ export const StyledButton = styled.button`
   &:disabled {
     opacity: 0.4;
     cursor: default;
+  }
+
+  @media screen and (${theme.media.medium}) {
+    position: static;
+    transform: translateX(0);
+    width: 100%;
   }
 `;

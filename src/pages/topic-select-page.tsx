@@ -16,7 +16,11 @@ import {
 import { getPageNumberFromPath, getTopicsBasedOnAge } from '../helpers';
 import { Option } from '../types';
 
-import { useLocalization, useSelectedTopics } from '../hooks';
+import {
+  useLocalization,
+  useResponsivePadding,
+  useSelectedTopics,
+} from '../hooks';
 
 const AgeSelectPage = () => {
   const { pathname } = useLocation();
@@ -26,6 +30,8 @@ const AgeSelectPage = () => {
   const { genericTranslation, selectedTranslation } = useLocalization();
   const { selectedTopics, updateSelectedTopics, setSelectedTopics } =
     useSelectedTopics(TOPIC_KEY, GENRES_MAX_LIMIT);
+
+  const paddingBottom = useResponsivePadding('60px', 768);
 
   useEffect(() => {
     const selectedAge = localStorage.getItem(AGE_KEY);
@@ -71,6 +77,7 @@ const AgeSelectPage = () => {
             justifyContent: 'center',
             gridTemplateColumns: 'repeat(auto-fill,100px)',
             gap: '8px',
+            paddingBottom,
           }}
         >
           {topicCollection.map(({ icon, value }) => (

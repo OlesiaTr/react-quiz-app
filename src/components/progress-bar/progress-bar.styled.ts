@@ -6,10 +6,13 @@ export const Section = styled.section`
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 30px;
   width: 100%;
 
   color: white;
+
+  @media screen and (${theme.media.medium}) {
+    margin-bottom: 30px;
+  }
 `;
 
 export const Container = styled.div`
