@@ -25,12 +25,10 @@ export const Item = styled.li<{ $isChecked: boolean }>`
     $isChecked ? theme.colors.mainPink : theme.colors.secondaryBg};
 
   &:hover {
-    border-color: ${theme.colors.mainPink};
-  }
-
-  &:active {
-    border-color: ${theme.colors.mainPink};
-    background-color: ${theme.colors.mainPinkWithOpacity};
+    border-color: ${({ $isChecked }) =>
+      $isChecked ? theme.colors.mainPink : theme.colors.secondaryBg};
+    background-color: ${({ $isChecked }) =>
+      $isChecked ? theme.colors.mainPinkWithOpacity : theme.colors.secondaryBg};
   }
 
   @media screen and (${theme.media.medium}) {
