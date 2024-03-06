@@ -3,12 +3,11 @@ import { styled } from 'styled-components';
 import { theme } from '../../styles';
 
 export const StyledButton = styled.button`
-  position: fixed;
+  position: sticky;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
 
-  width: calc(100% - 40px);
+  width: 100%;
   min-height: 56px;
   border: none;
   border-radius: 30px;
@@ -26,7 +25,5 @@ export const StyledButton = styled.button`
 
   @media screen and (${theme.media.medium}) {
     position: static;
-    transform: translateX(0);
-    width: 100%;
   }
 `;
